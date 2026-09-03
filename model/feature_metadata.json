@@ -1,0 +1,53 @@
+{
+  "features": [
+    "pages_viewed",
+    "session_minutes",
+    "products_viewed",
+    "cart_additions",
+    "discount_seen",
+    "previous_orders"
+  ],
+  "target": "target",
+  "feature_summary": {
+    "pages_viewed": {
+      "min": 18.0,
+      "max": 65.0,
+      "mean": 40.792,
+      "median": 40.0
+    },
+    "session_minutes": {
+      "min": 2.0,
+      "max": 99.35,
+      "mean": 36.40529,
+      "median": 36.705
+    },
+    "products_viewed": {
+      "min": 0.0,
+      "max": 10.0,
+      "mean": 2.922,
+      "median": 3.0
+    },
+    "cart_additions": {
+      "min": 0.0,
+      "max": 10.0,
+      "mean": 2.941,
+      "median": 3.0
+    },
+    "discount_seen": {
+      "min": 0.0,
+      "max": 9.0,
+      "mean": 2.913,
+      "median": 3.0
+    },
+    "previous_orders": {
+      "min": 0.0,
+      "max": 9.0,
+      "mean": 3.024,
+      "median": 3.0
+    }
+  },
+  "class_labels": {
+    "0": "No purchase",
+    "1": "Purchase"
+  }
+}
